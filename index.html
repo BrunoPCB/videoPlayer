@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/71ce931811.js"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Player</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="model-paused">
+        <div class="paused-icon click">
+          <i class="fa-solid fa-play playBtn"></i>
+        </div>
+      </div>
+      <video class="videoPlayer" src="./videos/1080.mp4"></video>
+      <div class="controls">
+        <div class="options-left">
+          <i class="fa-solid fa-play click playBtn"></i>
+          <i class="fa-solid fa-backward-step click returnVideo"></i>
+          <i class="fa-solid fa-forward-step click skipVideo"></i>
+        </div>
+        <div class="slider-container">
+          <!-- <div class="slider"></div> -->
+          <input type="range" min="1" max="100" value="0" class="slider" />
+        </div>
+        <div class="options-right">
+          <i class="fa-solid fa-volume-high click volume-btn"></i>
+          <i class="fa-solid fa-gear click qualityBtn"></i>
+        </div>
+        <div class="volume-slider hide">
+          <input type="range" min="1" max="100" value="50" class="volume" />
+        </div>
+        <div class="quality-change hide">
+          <ul class="quality-options">
+            <li class="1920">1920p</li>
+            <li class="1080">1080p</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
