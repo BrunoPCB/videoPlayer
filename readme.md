@@ -1,4 +1,6 @@
-# :arrow_forward: Video player
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+
+# <i class="fa-solid fa-play" style="color: #ff0000;"></i> Video player
 
 I created a custom video player with fully functional controls. Throughout the project, I explored various CSS techniques, including some that were initially challenging for me. It was a very satisfying experience to build this project on my own.
 
