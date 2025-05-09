@@ -4,6 +4,8 @@
 
 I created a custom video player with fully functional controls. Throughout the project, I explored various CSS techniques, including some that were initially challenging for me. It was a very satisfying experience to build this project on my own.
 
+OBS: This code only works with videos located in the "videos" directory. I used fixed file names and supported only MP4 format, as my main goal was to design the layout of the video player and test whether the functionalities were working correctly.
+
 > - [What I learned](#what-i-used)
 > - [References](#references)
 
